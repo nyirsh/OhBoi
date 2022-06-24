@@ -135,7 +135,7 @@ function onCollisionEnter(collision_info)
 	end
 
 	--Creates a timer to take the dice out and position them.
-	Wait.time(|| takeDiceOut(), 0.3)
+	Wait.time(takeDiceOut(), 0.3)
 end
 
 --Function to take the dice out of the bag and position them.
@@ -182,7 +182,7 @@ function takeDiceOut(tab)
 			params = {}
 			params.guid = key
 
-			if diceValue != diceGuids[key] then
+			if diceValue ~= diceGuids[key] then
 				diceValue = diceGuids[key]
 				count =0
 			end
