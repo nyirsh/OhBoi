@@ -76,7 +76,7 @@ Description: Minus_1_blue
 * If you want the miniature to count how many tokens of the same kind have been applied to it, check the `Stackable` option
 * Add the url of the token's `Image` and click on `Import`
 * Right click on the newly created token then access the `Tags` menu voice and add a new tag called `KTUITokenAdvanced` or highlight it from the list if already present
-* Right click on the token and go under `Scripting > Scripting Editor`, then copy the whole [SingleSidedAdvancedToken.lua](https://github.com/nyirsh/OhBoi/blob/main/Scripts/SingleSidedAdvancedToken.lua) and paste it into your model's script.
+* Right click on the token and go under `Scripting > Scripting Editor`, then copy the whole [SingleSidedAdvancedToken.lua](https://github.com/nyirsh/OhBoi/blob/main/Tokens/SingleSidedAdvancedToken.lua) and paste it into your model's script.
 * In the first lines of the script change the values of both `face_settings` to match your token's visuals
 
 `name`: a unique description that doesn't contain any spaces or new lines and nothing else. Please refer to [Reserved names](#reserved-names) to check a list of already reserved names
@@ -107,7 +107,7 @@ Please be aware that any token created with this method will have the `removable
 Please refrain from creating tokens this way if you're not familiar on how to import custom models or how the TTS scripts work
 * Import your token's `Custom Model` to TTS (please refer to guides on how to create and import your own custom models)
 * Right click on the newly created token then access the `Tags` menu voice and add a new tag called `KTUITokenAdvanced` or highlight it from the list if already present
-* Right click on the token and go under `Scripting > Scripting Editor`, then copy the whole [TwoSidedToken.lua](https://github.com/nyirsh/OhBoi/blob/main/Scripts/TwoSidedToken.lua) and paste it into your model's script.
+* Right click on the token and go under `Scripting > Scripting Editor`, then copy the whole [TwoSidedToken.lua](https://github.com/nyirsh/OhBoi/blob/main/Tokens/TwoSidedToken.lua) and paste it into your model's script.
 * In the first lines of the script change the values of both `face_up_settings` and `face_down_settings` to match your token's visuals
 
 `name`: a unique description that doesn't contain any spaces or new lines and nothing else. Please refer to [Reserved names](#reserved-names) to check a list of already reserved names
