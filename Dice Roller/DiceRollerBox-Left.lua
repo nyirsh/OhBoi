@@ -1,9 +1,9 @@
 -- Based off: https://steamcommunity.com/sharedfiles/filedetails/?id=726800282
 -- Link for this mod: https://steamcommunity.com/sharedfiles/filedetails/?id=959360907
--- Modified version to work with KTUI Dice Roller
+-- Modified version to work with OhBoi Dice Roller
 -- Initialize Global Variables and pRNG Seed
 math.randomseed(tonumber(tostring(os.time()):reverse():sub(1, 7)) + tonumber(tostring(os.clock()):reverse():sub(1, 7)))
-ver = 'BCB-2018-12-16-KTUI'
+ver = 'BCB-2018-12-16-OHBOI'
 
 lastHolder = {}
 customFace = {4, 6, 8, 10, 12, 20}

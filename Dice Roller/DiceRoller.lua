@@ -5,13 +5,9 @@ diceTabR = {}
 
 local size = 1
 local dice6Image = ''
-local diceColor = Color(1.0, 1.0, 1.0)
-local WantedDiceNumber = 1
-local killTeam = 0
 local autoRoll2 = 0
 local frame = 0
 local menu = 1
-local enableUI = 0
 local tuto = 0
 local isRolling = {}
 
@@ -132,7 +128,6 @@ function getSideColor(side)
 end
 
 function isPlayerAllowed(player, func)
-    -- print(func)
     local retValue = player.color == leftColor or player.color == rightColor
     if retValue == false then
         player.broadcast("Hey [" .. getColorHex(player.color) .. "]" .. player.steam_name .. "[-]! Only [" ..
